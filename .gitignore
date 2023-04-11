@@ -19,9 +19,11 @@ models/*
 
 /main
 /quantize
+/quantize-stats
 /result
 /perplexity
 /embedding
+/Pipfile
 
 arm_neon.h
 compile_commands.json
@@ -32,3 +34,6 @@ compile_commands.json
 .venv
 __pycache__
 .swiftpm
+
+zig-out/
+zig-cache/
